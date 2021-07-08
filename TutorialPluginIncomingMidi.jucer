@@ -2,7 +2,8 @@
 
 <JUCERPROJECT id="GYgGa3" name="TutorialPluginIncomingMidi" projectType="audioplug"
               useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
-              pluginCharacteristicsValue="pluginProducesMidiOut,pluginWantsMidiIn">
+              pluginCharacteristicsValue="pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginVSTCategory="kPlugCategUnknown" cppLanguageStandard="14">
   <MAINGROUP id="jclIOB" name="TutorialPluginIncomingMidi">
     <GROUP id="{74E6DEE6-CAA2-C293-0739-B6813F93EE38}" name="Source">
       <FILE id="Clnbwt" name="PluginProcessor.cpp" compile="1" resource="0"
