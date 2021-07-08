@@ -14,7 +14,7 @@
 //==============================================================================
 /**
 */
-class TutorialPluginIncomingMidiAudioProcessorEditor  : public juce::AudioProcessorEditor
+class TutorialPluginIncomingMidiAudioProcessorEditor  : public juce::AudioProcessorEditor, private juce::Slider::Listener //added listener callback function
 {
 public:
     TutorialPluginIncomingMidiAudioProcessorEditor (TutorialPluginIncomingMidiAudioProcessor&);
@@ -25,6 +25,8 @@ public:
     void resized() override;
 
 private:
+    void sliderValueChanged (juce::Slider* slider) override; //added default callback function
+    
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
     TutorialPluginIncomingMidiAudioProcessor& audioProcessor;
