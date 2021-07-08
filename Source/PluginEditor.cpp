@@ -50,7 +50,8 @@ void TutorialPluginIncomingMidiAudioProcessorEditor::resized()
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
     // sets the position and size of the slider with arguments (x, y, width, height)
-    midiVolume.setBounds (40, 30, 20, getHeight() - 60);
+//    midiVolume.setBounds (40, 30, 20, getHeight() - 60);
+    midiVolume.setBounds (90, 30, 20, getHeight() - 60); // manual positioning
 }
 
 // inserting the listener function that sets our public processor volume variable
