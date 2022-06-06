@@ -59,3 +59,5 @@ void TutorialPluginIncomingMidiAudioProcessorEditor::sliderValueChanged (juce::S
 {
     audioProcessor.noteOnVel = midiVolume.getValue();
 }
+
+//test after name change
